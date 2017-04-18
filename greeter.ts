@@ -5,5 +5,7 @@ class Greeter {
     }
 };
 
+var xyz = "Hey" + " you"
+var newmessage = xyz + ", how are you"
 var greeter = new Greeter("Hello, world!"); 
 document.body.innerHTML = greeter.greet();
